@@ -40,12 +40,21 @@ footer {
 }
 
 .primary-sidebar {
-  width: 25%;
-  padding: 1%;
-  vertical-align: top;
+  float: left;
+  width: 208px;
+  height: 100vh;
   background-color: #ececec;
+  margin-left: initial;
+  padding: 20px;
 }
 
+.primary-sidebar .wp-block-search {
+  background-color: #fff; 
+  padding: 10px;          
+  border-radius: 5px;     
+}
+
+  
 .bypostauthor { 
   background-color: #ffffff;
   border: 1px solid #f55758;
