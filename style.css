@@ -42,16 +42,22 @@ footer {
 .primary-sidebar {
   float: left;
   width: 208px;
-  height: 100vh;
+  height: 100%;
   background-color: #ececec;
   margin-left: initial;
   padding: 20px;
+  overflow: scroll;
 }
 
 .primary-sidebar .wp-block-search {
   background-color: #fff; 
   padding: 10px;          
   border-radius: 5px;     
+}
+
+.primary-sidebar footer {
+  border: none;
+  background-color: #ececec
 }
 
   
@@ -63,12 +69,12 @@ footer {
 }
   
 .bypostauthor::before {
-content: "Post author";
-background-color: #f55758;
-padding: 3px 8px;
-font-size: 14px;
-font-weight: 600;
-color: #ffffff;
+  content: "Post author";
+  background-color: #f55758;
+  padding: 3px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 /* ------------------------------------------------ */  
