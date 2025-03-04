@@ -170,6 +170,20 @@ article > header {
   align-items: center;
   background-color: #78baff;
   padding: 10px 0 10px 0;
+  gap: 50px;
+}
+
+.main-navigation img {
+  position: absolute;
+  left: 30;
+  top: 35;
+}
+
+.main-navigation h4 {
+  position: absolute;
+  left: 90px;
+  top: 45px;
+  color: white;
 }
 
 .main-navigation ul {
@@ -217,6 +231,29 @@ article > header {
 
 .front-wrapper {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.front-wrapper h1 {
+  width: fit-content;
+  margin: 20px 0 0 20px;
+}
+
+.front-page-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.front-page-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  border: 1px solid black;
+  box-shadow: 5px 10px #888888;
 }
 
 /* ---------------------------------------------------- */

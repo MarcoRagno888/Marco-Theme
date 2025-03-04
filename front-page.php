@@ -6,7 +6,13 @@
 
 <main class="front-wrapper">
     <?php wp_body_open(); ?>
-    <h1>Front</h1>
+    <h1>Pagina di atterraggio</h1>
+
+    <div class="front-page-cards">
+        <div class="front-page-card">
+            <a href="/articoli"><h2>Articoli</h2></a>
+        </div>
+    </div>
 </main>
 
 <?php get_footer(); ?>
