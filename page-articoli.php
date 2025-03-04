@@ -3,7 +3,7 @@
 
 <?php get_header(); ?>
 
-<body <?php body_class( $class ); ?> class="page-articoli-wrapper">
+<body <?php body_class(); ?> class="page-articoli-wrapper">
 
     <div class="page-articoli-main-section">
         <div class="page-articoli-title">
